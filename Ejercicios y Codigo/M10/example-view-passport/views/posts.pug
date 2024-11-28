@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Crear un Nuevo Post
+    script(src='/js/posts.js') // Enlaza el archivo JS para gestionar el token
+  body
+    h1 Crear un Nuevo Post
+
+    // Formulario para crear un nuevo post
+    form#postForm(action='/api/posts', method='POST')
+      div
+        label(for='title') Título:
+        input#title(type='text' name='title' required)
+      div
+        label(for='content') Contenido:
+        textarea#content(name='content' required)
+      div
+        label(for='category') Categoría:
+        input#category(type='text' name='category' required)
+      div
+        button(type='submit') Agregar Post
+
+    h2 Lista de Posts
+    ul
+      each post in posts
+        li
+          strong= post.title
+          | : #{post.content}

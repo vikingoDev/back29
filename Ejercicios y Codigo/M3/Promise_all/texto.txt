@@ -1,0 +1,3 @@
+# Bloquear a Googlebot de acceder a /no-google/
+User-agent: Googlebot
+Disallow: /no-google/

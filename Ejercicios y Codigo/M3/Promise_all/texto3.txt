@@ -1,0 +1,3 @@
+# Bloquear todos los bots de acceder a la carpeta /privado
+User-agent: *
+Disallow: /privado/

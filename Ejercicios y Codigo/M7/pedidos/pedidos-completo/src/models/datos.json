@@ -1,0 +1,25 @@
+{
+  "pedidos": {
+    "nombres": [
+      "Burger Clásica",
+      "Burger BBQ",
+      "Burger Veggie",
+      "Pedido Emir",
+      "Pedido dulce"
+    ],
+    "tipos": [
+      "salsa especial",
+      "cebolla, tomate y lechuga",
+      "salsa 1000 islas",
+      "Pizza con extra de queso",
+      "Torta"
+    ],
+    "precios": [
+      8990,
+      10490,
+      9790,
+      10099,
+      1599
+    ]
+  }
+}

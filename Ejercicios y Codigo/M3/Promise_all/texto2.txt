@@ -1,0 +1,3 @@
+# Permitir acceso a todos los bots a la carpeta /publico
+User-agent: *
+Allow: /publico/

@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Detalles de la Cuenta
+  body
+    h1 Detalles de la Cuenta
+    p ID: #{usuario.id}
+    p Nombre: #{usuario.nombre}
+    
+    if mensaje
+      p #{mensaje}
+
+    a(href="/") Volver a la página principal

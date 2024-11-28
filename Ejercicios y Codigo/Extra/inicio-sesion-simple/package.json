@@ -1,0 +1,16 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto de inicio de sesión con Node.js y Pug",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "pug": "^3.0.3"
+  }
+}

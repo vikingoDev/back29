@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat en tiempo real</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Chat en tiempo real</h1>
+  <div id="messages"></div>
+  <form onsubmit="return addMessage(this)">
+    <input type="text" id="username" placeholder="Nombre" required />
+    <input type="text" id="texto" placeholder="Mensaje..." required />
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+</html>

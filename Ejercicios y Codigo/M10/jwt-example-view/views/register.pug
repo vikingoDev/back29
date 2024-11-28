@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Registrarse
+  body
+    h1 Registrarse
+    form(action='/api/users', method='POST')
+      div
+        label(for='username') Nombre de usuario:
+        input(type='text', name='username', required)
+      div
+        label(for='name') Nombre:
+        input(type='text', name='name', required)
+      div
+        label(for='password') Contraseña:
+        input(type='password', name='password', required)
+      div
+        button(type='submit') Registrarse
+    p
+      a(href='/login') Ya tengo una cuenta

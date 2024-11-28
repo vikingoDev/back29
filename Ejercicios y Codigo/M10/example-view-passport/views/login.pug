@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Login
+    script(src="/js/login.js") // Enlaza tu archivo JS
+  body
+    h1 Iniciar sesión
+    form(onsubmit="event.preventDefault(); login();")
+      div
+        label(for="username") Usuario:
+        input#username(type="text" required)
+      div
+        label(for="password") Contraseña:
+        input#password(type="password" required)
+      div
+        button(type="submit") Iniciar sesión
+
+    p
+      a(href='/register') Registrarse
